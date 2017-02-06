@@ -1,0 +1,41 @@
+{
+  "natural_language_classifier" : [ {
+    "name" : "bt000185-nlc",
+    "label" : "natural_language_classifier",
+    "plan" : "standard",
+    "credentials" : {
+      "url" : "https://gateway.watsonplatform.net/natural-language-classifier/api",
+      "password" : "KLcAY7Z8BS8G",
+      "username" : "5cc32f2b-5ad9-44cd-860d-c3a273b4b072"
+    }
+  } ],
+  "dashDB" : [ {
+    "name" : "bt000185-dashDB",
+    "label" : "dashDB",
+    "plan" : "Entry",
+    "credentials" : {
+      "port" : 50000,
+      "db" : "BLUDB",
+      "username" : "dash107469",
+      "ssljdbcurl" : "jdbc:db2://bluemix05.bluforcloud.com:50001/BLUDB:sslConnection=true;",
+      "host" : "bluemix05.bluforcloud.com",
+      "https_url" : "https://bluemix05.bluforcloud.com:8443",
+      "dsn" : "DATABASE=BLUDB;HOSTNAME=bluemix05.bluforcloud.com;PORT=50000;PROTOCOL=TCPIP;UID=dash107469;PWD=Wd7jBI6EmgFb;",
+      "hostname" : "bluemix05.bluforcloud.com",
+      "jdbcurl" : "jdbc:db2://bluemix05.bluforcloud.com:50000/BLUDB",
+      "ssldsn" : "DATABASE=BLUDB;HOSTNAME=bluemix05.bluforcloud.com;PORT=50001;PROTOCOL=TCPIP;UID=dash107469;PWD=Wd7jBI6EmgFb;Security=SSL;",
+      "uri" : "db2://dash107469:Wd7jBI6EmgFb@bluemix05.bluforcloud.com:50000/BLUDB",
+      "password" : "Wd7jBI6EmgFb"
+    }
+  } ],
+  "text_to_speech" : [ {
+    "name" : "bt000185-TTS",
+    "label" : "text_to_speech",
+    "plan" : "standard",
+    "credentials" : {
+      "url" : "https://stream.watsonplatform.net/text-to-speech/api",
+      "password" : "jG3j2mj1NeVx",
+      "username" : "a5e4c921-56a1-466a-b926-36947ddf4cb8"
+    }
+  } ]
+}

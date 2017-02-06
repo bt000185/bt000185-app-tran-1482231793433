@@ -1,0 +1,21 @@
+declared-services:
+  bt000185-nlc-tran:
+    label: natural_language_classifier
+    plan: standard
+  bt000185-dashDB-tran:
+    label: dashDB
+    plan: Entry
+  bt000185-TTS-tran:
+    label: text_to_speech
+    plan: standard
+applications:
+- services:
+  - bt000185-nlc-tran
+  - bt000185-dashDB-tran
+  - bt000185-TTS-tran
+  name: bt000185-app-tran
+  host: bt000185-app-tran
+  domain: mybluemix.net
+  command: node app.js
+  path: .
+  memory: 256M
