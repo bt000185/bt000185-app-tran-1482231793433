@@ -68,7 +68,7 @@ greet();
 function greet(){
   document.getElementById("chatlog").innerHTML += '<div class="row"><div class="col-xs-11">'+
   '<div class="col-xs-2 pull-1"><center><img src="images/watson_think_stop.gif" class="watsongif"></center></div>' +
-  '<div class="col-xs-offset1"><p class="balloon-left">こんにちは、ご質問を入力してください</p></div></div>';
+  '<div class="col-xs-offset1"><p class="balloon-left">こんばんは、ご質問を入力してください</p></div></div>';
 }
 
 //modal画面(other comment feedback)にてアンサーストアのプルダウン内容の取得処理
