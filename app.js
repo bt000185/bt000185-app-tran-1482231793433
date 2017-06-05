@@ -158,7 +158,7 @@ function readSettings(callback){
       settingJson = JSON.parse(text);
       classifierThresholdValue = settingJson.classifierThresholdValue;
       answerstore_name = settingJson.answerstore_name;
-      console.log("しきい値は"+classifierThresholdValue+"です");
+      console.log("しきい値は"+classifierThresholdValue+"ですです");
       console.log("アンサーストア名は" + answerstore_name +"です");
       callback();
     }
